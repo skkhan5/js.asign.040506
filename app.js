@@ -171,3 +171,43 @@ let yearRemaning = maxAge - currenrAge;
 let totalamount = yearRemaning * 365 * amountPerDAy;
 
 document.write(`Your Will Need ${totalamount} Chocolate Chip Last yYou Until Ripe Old age of ${maxAge} <br/> <h1>Baki Upar waly 12 question code uncommite kr ke chak kar lain <h1/>`)
+
+
+// let yourName = prompt("")
+// document.write(`Assala-mu-alikum ${yourName}`)
+
+
+// let number = prompt("")
+// number = number ? parseInt(number) : 5;
+// document.write(`Table ${number} <br/>`)
+// for(let i =1; i <=10 ; i++){
+// document.write(`${number} x ${i} = ${number * i } <br/> `)
+// }
+
+// var a = 2, b = 1; 
+// var result = --a - --b + ++b + b-- 
+// b + 1
+// console.log(result) 
+
+
+
+let subject1 = prompt("Subject One ")
+let subject2 = prompt("Subject Two")
+let subject3 = prompt("Subject Three")
+
+let eachMark = 100;
+
+let obtainedMark1 = parseInt(prompt(`Aap ke Subject 1 Main ${subject1} ke Obtain Marks Enter krain.`))
+let obtainedMark2 = parseInt(prompt(`Aap ke Subject 2 Main ${subject2} ke Obtain Marks Enter krain.`))
+let obtainedMark3 = parseInt(prompt(`Aap ke Subject 3 Main ${subject3} ke Obtain Marks Enter krain.`));
+
+
+let totalObtainedMark = obtainedMark1 + obtainedMark2 + obtainedMark3 ;
+
+let totalEachMark = eachMark * 3;
+
+let persentage = (totalObtainedMark / totalEachMark) * 100
+
+
+
+document.write(` Total Mark ${totalEachMark} Obtained Mark ${totalObtainedMark}  and persentage ${persentage.toFixed(2)}`)
